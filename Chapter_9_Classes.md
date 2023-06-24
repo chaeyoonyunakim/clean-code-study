@@ -1,7 +1,7 @@
-# Chapter 4 : Comments
+# Chapter 9 : Classes
 
 날짜: 2023년 6월 18일 → 2023년 6월 24일
-요약: _"클래스도 함수처럼 쪼개고 쪼개자.^\*^_ 단, 기능 단위여야 한다"
+요약: _"클래스도 함수처럼 쪼개고 쪼개자(*)."_ 단, 기능(responsibility) 단위여야 한다.
 
 ## Class Organization
 
@@ -34,16 +34,16 @@
 
 ## Organizing for Change
 
-- _"새 기능을 추가할 때 시스템을 확장할 뿐 기존 코드를 변경하지 않는 게 이상적인 시스템"^\*^_ 이다.
+- _"새 기능을 추가할 때 시스템을 확장할 뿐 기존 코드를 변경하지 않는 게 이상적인 시스템(*)"_ 이다.
 - SRP를 잊지말자. 그리고 주요 객체지향 클래스 디자인에는 Open-Closed Principle(OCP)도 있다; _Classes should be open for extension but closed for modification_.
 
 ## Isolating from Change
 
 - 코드는 변하는 목적에 따라 바뀌게 될 것이다.
-- concrete class (_"구체적인 클래스"^\*^_)가 API 호출 등의 이유로 리턴 값이 변한다면 _"인터페이스와 추상 클래스를 통해 구현이 미치는 영향을 격리하는게 좋다"^\*^_
+- concrete class (_"구체적인 클래스"(*)_)가 API 호출 등의 이유로 리턴 값이 변한다면 _"인터페이스와 추상 클래스를 통해 구현이 미치는 영향을 격리하는게 좋다"(*)_
 - Dependency Inversion Principle (DIP)는 _classes should depend upon abstractions, not on concrete details_ 을 말한다.
 
-## Example: how to refactor the class? -> follow up action!
+## Example: how to refactor the class? -> follow up action! Chapter 16
 
 ```python
 class Calculate():
@@ -136,4 +136,4 @@ if __name__ == "__main__":
     Output().file()
 ```
 
-^\*^한글 문구 출처: 무해님의 네이버 블로그 기록, "[클린코드] 10.클래스", https://blog.naver.com/cookr3/223077399469
+(*)한글 문구 출처: 무해님의 네이버 블로그 기록, "[클린코드] 10.클래스", https://blog.naver.com/cookr3/223077399469
