@@ -1,0 +1,26 @@
+# Formatting
+
+- **Small files are usually easier to understand than large files are.** Ideally less than 500 lines.
+    - 작은 파일은 일반적으로 큰 파일보다 이해하기 쉽습니다. 500줄 미만이 가장 이상적입니다.
+- **We would like a source file to be like a newspaper article.** The name should be simple but explanatory. The name, by itself, should be sufficient to tell us whether we are in the right module or not. The topmost parts of the source file should provide the high-level concepts and algorithms. Detail should increase as we move downward, until at the end we find the lowest level functions and details in the source file.
+    - 소스 파일은 신문 기사와 같은 형식이어야 합니다. 이름은 간단하지만 설명이 있어야 합니다. 이름만으로도 올바른 모듈에 있는지 여부를 알 수 있어야 합니다. 소스 파일의 맨 위 부분에는 높은 수준의 개념과 알고리즘을 제공해야 합니다. 아래로 내려갈수록 세부 사항이 증가하여 마지막에는 소스 파일에서 가장 낮은 수준의 기능과 세부 사항을 찾을 수 있어야 합니다.
+- **Use blank line wisely.** Each blank line is a visual cue that identifies a new and separate concept. As you scan down the listing, your eye is drawn to the first line that follows a blank line.
+    - 빈 줄을 현명하게 사용하세요. 각 빈 줄은 새롭고 별도의 개념을 식별하는 시각적 신호입니다. 목록을 아래로 훑어보면 빈 줄 다음에 나오는 첫 번째 줄에 시선이 끌립니다.
+- Keep Variables declarations as close to their usage as possible.
+    - 변수 선언은 가능한 한 사용법에 가깝게 유지하세요.
+- Control variables for loops should usually be declared within the loop statement
+    - 루프에 대한 제어 변수는 일반적으로 루프 문 안에 선언해야 합니다.
+- Instance variables, on the other hand, should be declared at the top of the class. This should not increase the vertical distance of these variables, because in a well-designed class, they are used by many, if not all, of the methods of the class.
+    - 반면 인스턴스 변수는 클래스 맨 위에 선언해야 합니다. 잘 설계된 클래스에서는 이러한 변수가 클래스의 모든 메서드는 아니더라도 많은 메서드에서 사용되기 때문에 이러한 변수의 수직적 거리를 늘려서는 안 됩니다.
+- Dependent Functions should be vertically close, and the caller should be above the callee, if at all possible.
+    - 종속 함수는 수직으로 가깝게 배치해야 하며, 가능하면 caller가 callee보다 위에 있어야 합니다.
+- We should strive to keep our lines short. The old Hollerith limit of 80 is a bit arbitrary, and the author does not oppose to lines edging out to 100 or even 120.
+    - 줄을 짧게 유지하기 위해 노력해야 합니다. 80자/100자/**120자**
+- Use for white space is to accentuate the precedence of operators.
+    - 공백을 사용하는 것은 연산자의 우선순위를 강조하기 위한 것입니다.
+    - `( -b + Math.sqrt(determinant)) / (2*a)`
+    - `( - b + Math.sqrt(determinant)) / (2 * a)`
+- To make this hierarchy of scopes visible, we indent the lines of source code in proportion to their position in the hierarchy.
+    - 이러한 범위 계층 구조를 눈에 잘 띄게 하기 위해 계층 구조에서 해당 위치에 비례하여 소스 코드 줄을 들여쓰기합니다.
+- A team of developers should agree upon a single formatting style, and then every member of that team should use that style.
+    - 개발자 팀이 하나의 서식 지정 스타일에 동의하면 해당 팀의 모든 구성원이 해당 스타일을 사용해야 합니다.
