@@ -1,4 +1,4 @@
-# Chapter 9 : Classes
+# Chapter 10 : Classes
 
 날짜: 2023년 6월 18일 → 2023년 6월 24일
 요약: _"클래스도 함수처럼 쪼개고 쪼개자(*)."_ 단, 기능(responsibility) 단위여야 한다.
