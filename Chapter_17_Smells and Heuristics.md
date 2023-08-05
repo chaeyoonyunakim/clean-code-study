@@ -2,6 +2,35 @@
 
 날짜: 2023년 7월 30일 → 2023년 8월 5일
 
+## Comment
+
+### C1: Inappropriate information
+
+### C2: Obsolete comment
+
+### C3: Redundant comment
+
+### C4: Poorly written comment
+
+### C5: Commented out code
+
+
+## Environment
+
+### E1: Don't let the build require more than one step
+
+### E1: Don't leave commented-out codes
+
+## Functions
+
+### F1: Avoid too many arguments
+
+### F2: Output arguments
+
+### F3: Flag arguments
+
+### F4: Remove dead functions
+
 ## General
 
 ### G1: *****Multiple Languages in One Source File***** 한 소스 파일에 여러 언어를 사용
