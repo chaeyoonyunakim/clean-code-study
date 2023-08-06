@@ -37,6 +37,14 @@ Apr 22, 2023 ~ Aug 05, 2023
 			<a href="#content-chaeyoonyunakim" title="Content">🖋</a>
 			<a href="#question-chaeyoonyunakim" title="Leading Discussion">💬</a>
 			</font></td>
+			<td align="center"><font color="#333333">
+			<a href="https://github.com/jjeommeo"><img alt="" src="https://avatars.githubusercontent.com/u/38942020?v=4" width="100px;" />
+			<br />
+			<sub>jjeommeo</sub></a>
+			<br />
+			<a href="#ideas-jjeommeo" style="text-align: -webkit-center;" title="Ideas, Planning, &amp; Feedback">🤔</a>
+			<a href="#content-jjeommeo" title="Content">🖋</a>
+			<a href="#question-jjeommeo" title="Leading Discussion">💬</a>
 		</tr>
 	</tbody>
 </table>
